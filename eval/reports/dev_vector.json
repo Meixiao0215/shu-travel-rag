@@ -1,0 +1,503 @@
+{
+  "mode": "vector",
+  "split": "dev",
+  "top_k": 5,
+  "count": 27,
+  "mean_evidence_recall": 1.0,
+  "all_evidence_rate": 1.0,
+  "mrr": 0.9259259259259259,
+  "embedding_model": "BAAI/bge-m3",
+  "corpus_sha256": "46b3fc3ecb09c4a1a9501c4f08d7450b800bf1c648eac679b401b9f6c7996aa2",
+  "results": [
+    {
+      "id": "Q01",
+      "question": "本办法适用于哪些经费？",
+      "expected": [
+        "第二条"
+      ],
+      "retrieved": [
+        "第二条",
+        "第一条",
+        "第三十三条",
+        "第二十七条",
+        "第二十三条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 3.841
+    },
+    {
+      "id": "Q02",
+      "question": "国内差旅费包括哪些费用？",
+      "expected": [
+        "第三条"
+      ],
+      "retrieved": [
+        "第三条",
+        "第二十七条",
+        "第十八条",
+        "第二十三条",
+        "第二十五条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.154
+    },
+    {
+      "id": "Q03",
+      "question": "科研出差前必须审批吗？",
+      "expected": [
+        "第十九条",
+        "第四条"
+      ],
+      "retrieved": [
+        "第十九条",
+        "第四条",
+        "附表1",
+        "第五条",
+        "第二十四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.15
+    },
+    {
+      "id": "Q04",
+      "question": "二级教授乘高铁可以选什么座位？",
+      "expected": [
+        "第七条"
+      ],
+      "retrieved": [
+        "第七条",
+        "第十二条",
+        "附表2",
+        "第十三条",
+        "第四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.156
+    },
+    {
+      "id": "Q05",
+      "question": "其余人员乘飞机和高铁是什么标准？",
+      "expected": [
+        "第七条"
+      ],
+      "retrieved": [
+        "第七条",
+        "第五条",
+        "第九条",
+        "第十三条",
+        "第三十条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.153
+    },
+    {
+      "id": "Q06",
+      "question": "因为身体原因想坐高一等级交通工具怎么办？",
+      "expected": [
+        "第七条"
+      ],
+      "retrieved": [
+        "第七条",
+        "第九条",
+        "第八条",
+        "第二十四条",
+        "附表1"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.155
+    },
+    {
+      "id": "Q07",
+      "question": "交通意外保险能买几份？",
+      "expected": [
+        "第九条"
+      ],
+      "retrieved": [
+        "第九条",
+        "第七条",
+        "第二十条",
+        "第八条",
+        "第十七条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.152
+    },
+    {
+      "id": "Q08",
+      "question": "退票费和订票费可以报销吗？",
+      "expected": [
+        "第十条"
+      ],
+      "retrieved": [
+        "第二十七条",
+        "第十条",
+        "第二十条",
+        "第十八条",
+        "第二十五条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 0.5,
+      "seconds": 0.155
+    },
+    {
+      "id": "Q09",
+      "question": "其余人员去北京，普通出差住宿限额是多少？",
+      "expected": [
+        "第十三条",
+        "第十二条"
+      ],
+      "retrieved": [
+        "第十二条",
+        "第十三条",
+        "第七条",
+        "第四条",
+        "第十一条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.138
+    },
+    {
+      "id": "Q10",
+      "question": "二级教授去南京，普通出差住宿限额是多少？",
+      "expected": [
+        "第十三条",
+        "第十二条"
+      ],
+      "retrieved": [
+        "第十二条",
+        "第十三条",
+        "附表2",
+        "第七条",
+        "第四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.131
+    },
+    {
+      "id": "Q11",
+      "question": "普通住宿超过规定标准的部分谁承担？",
+      "expected": [
+        "第十三条"
+      ],
+      "retrieved": [
+        "第十三条",
+        "第十二条",
+        "第二十六条",
+        "第二十一条",
+        "第十一条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.228
+    },
+    {
+      "id": "Q12",
+      "question": "出差地餐饮发票能在伙食补助之外报销吗？",
+      "expected": [
+        "第十四条"
+      ],
+      "retrieved": [
+        "第二十二条",
+        "第十四条",
+        "第二十五条",
+        "第二十四条",
+        "第二十六条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 0.5,
+      "seconds": 0.134
+    },
+    {
+      "id": "Q13",
+      "question": "去青海和江苏出差，伙食补助每日分别是多少？",
+      "expected": [
+        "第十五条"
+      ],
+      "retrieved": [
+        "第十五条",
+        "第十四条",
+        "第二十二条",
+        "第二十六条",
+        "第十七条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.134
+    },
+    {
+      "id": "Q14",
+      "question": "市内交通费包干和按发票报销能同时选吗？",
+      "expected": [
+        "第十七条"
+      ],
+      "retrieved": [
+        "第十七条",
+        "第二十二条",
+        "第二十条",
+        "第十条",
+        "第二十四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.13
+    },
+    {
+      "id": "Q15",
+      "question": "市内交通费选择包干时，每天标准是多少？",
+      "expected": [
+        "第十七条"
+      ],
+      "retrieved": [
+        "第十七条",
+        "第十六条",
+        "第七条",
+        "第二十二条",
+        "第六条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.129
+    },
+    {
+      "id": "Q16",
+      "question": "一次出差漏报了住宿费，可以事后再补报吗？",
+      "expected": [
+        "第十八条"
+      ],
+      "retrieved": [
+        "第十八条",
+        "第二十一条",
+        "第十三条",
+        "第二十二条",
+        "附表1"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.13
+    },
+    {
+      "id": "Q17",
+      "question": "差旅费报销需要哪些基本材料？",
+      "expected": [
+        "第十八条"
+      ],
+      "retrieved": [
+        "第十八条",
+        "第二十三条",
+        "附表2",
+        "第二十五条",
+        "第二十二条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.148
+    },
+    {
+      "id": "Q18",
+      "question": "项目负责人本人出差由谁审批？",
+      "expected": [
+        "第十九条"
+      ],
+      "retrieved": [
+        "第十九条",
+        "第五条",
+        "第四条",
+        "附表1",
+        "第二十八条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.149
+    },
+    {
+      "id": "Q19",
+      "question": "只有单程车票或行程不连续能报销吗？",
+      "expected": [
+        "第二十条"
+      ],
+      "retrieved": [
+        "第二十条",
+        "第十八条",
+        "第二十二条",
+        "第十七条",
+        "第二十四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.13
+    },
+    {
+      "id": "Q20",
+      "question": "住宿发票没有天数人数单价，应怎么办？",
+      "expected": [
+        "第二十一条"
+      ],
+      "retrieved": [
+        "第二十一条",
+        "第二十六条",
+        "第十三条",
+        "第二十二条",
+        "第十八条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.131
+    },
+    {
+      "id": "Q21",
+      "question": "当天往返没有住宿发票，能领补助吗？",
+      "expected": [
+        "第二十二条"
+      ],
+      "retrieved": [
+        "第二十二条",
+        "第二十一条",
+        "第二十六条",
+        "第二十四条",
+        "第十四条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.148
+    },
+    {
+      "id": "Q22",
+      "question": "对方单位承担住宿费用，没有住宿发票怎么办？",
+      "expected": [
+        "第二十二条"
+      ],
+      "retrieved": [
+        "第二十一条",
+        "第二十二条",
+        "第二十六条",
+        "第十八条",
+        "第十三条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 0.5,
+      "seconds": 0.15
+    },
+    {
+      "id": "Q23",
+      "question": "去参加会议，举办方统一承担费用，补助按几天发？",
+      "expected": [
+        "第二十三条"
+      ],
+      "retrieved": [
+        "第二十三条",
+        "第二十六条",
+        "第十四条",
+        "第二十五条",
+        "第二十二条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.135
+    },
+    {
+      "id": "Q24",
+      "question": "会议统一安排住宿但食宿费用自理，补助怎么算？",
+      "expected": [
+        "第二十三条"
+      ],
+      "retrieved": [
+        "第二十六条",
+        "第二十三条",
+        "第十四条",
+        "第二十二条",
+        "第十三条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 0.5,
+      "seconds": 0.137
+    },
+    {
+      "id": "Q25",
+      "question": "横向科研项目自驾，汽油费和高速通行费能报吗？",
+      "expected": [
+        "第二十四条"
+      ],
+      "retrieved": [
+        "第二十四条",
+        "第二条",
+        "第二十五条",
+        "第二十二条",
+        "第五条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.134
+    },
+    {
+      "id": "Q26",
+      "question": "纵向科研项目自驾产生的汽油费能报销吗？",
+      "expected": [
+        "第二十四条"
+      ],
+      "retrieved": [
+        "第二十四条",
+        "第二条",
+        "第二十五条",
+        "第二十二条",
+        "第十条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.13
+    },
+    {
+      "id": "Q27",
+      "question": "邀请校外专家来开会，可以发伙食补助吗？",
+      "expected": [
+        "第二十五条"
+      ],
+      "retrieved": [
+        "第二十五条",
+        "第二十三条",
+        "第二十四条",
+        "附表2",
+        "第十九条"
+      ],
+      "recall": 1.0,
+      "all_evidence_found": true,
+      "reciprocal_rank": 1.0,
+      "seconds": 0.133
+    }
+  ],
+  "note": "人工从单份PDF设计的小样本评测；仅测检索，不是最终答案正确率。"
+}

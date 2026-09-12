@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shu-travel-rag"
+version = "0.1.0"
+description = "上海大学科研国内差旅政策 RAG Agent 教学项目"
+requires-python = ">=3.11"
+dependencies = [
+  "langchain>=1,<2", "langchain-deepseek>=1,<2",
+  "langchain-chroma>=1,<2", "langchain-text-splitters>=1,<2",
+  "pdfplumber>=0.11,<1", "pypdf>=5,<7",
+  "sentence-transformers>=3,<6", "jieba>=0.42,<1",
+  "rank-bm25>=0.2,<1", "python-dotenv>=1,<2",
+  "pydantic>=2.7,<3",
+  "streamlit>=1.40,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+travel-rag = "travel_rag.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["travel_rag*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
