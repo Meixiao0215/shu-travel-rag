@@ -1,4 +1,4 @@
-# 上海大学科研差旅政策 RAG Agent
+# 科研差旅政策 RAG Agent
 
 从空目录亲手搭建请阅读 [从零构建到发布 GitHub 的完整教程](docs/from_zero_to_github.md)，其中包含逐步说明、完整文件代码、运行命令和验收任务。
 
